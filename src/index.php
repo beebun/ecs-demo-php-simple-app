@@ -19,12 +19,12 @@
                 <h2>Congratulations</h2>
                 <p>Your PHP application is now running on a container in Amazon ECS.</p>
                 <p>The container is running PHP version <?php echo phpversion(); ?>.</p>
+                <p>This is new message added by beebun to test updating new version of Docker image.</p>
                 <?php
                         $myfile = fopen("/var/www/my-vol/date", "r") or die("");
                         echo fread($myfile,filesize("/var/www/my-vol/date"));
                         fclose($myfile);
                 ?>
-                <p>This is new message added by beebun to test updating new version of Docker image.</p>
             </div>
         </div>
 
