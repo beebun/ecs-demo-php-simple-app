@@ -24,7 +24,7 @@
                         echo fread($myfile,filesize("/var/www/my-vol/date"));
                         fclose($myfile);
                 ?>
-
+                <p>This is new message added by beebun to test updating new version of Docker image.</p>
             </div>
         </div>
 
